@@ -1,0 +1,26 @@
+.bg-header {
+    background-image: url('header-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    margin: 5px 0;
+} 
+
+footer .ftImage {
+    width: 75%;
+}
